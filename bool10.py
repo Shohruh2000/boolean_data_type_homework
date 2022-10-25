@@ -7,7 +7,6 @@ def main(a):
         bool
     """
     # Write your code here
-    return int(pow(a,(1/2))) > 0 
-
+    return a > 0  
 number = main(121)
 print(bool(number))
