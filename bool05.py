@@ -1,3 +1,4 @@
+
 def main(a):
     """
     Check the logic "The variable "a" is an odd number"
@@ -8,5 +9,5 @@ def main(a):
     """
     # Write your code here
     return a % 2 == 1
-x = main(8)
-print(bool(x))
+number= main(8)
+print(bool(number))
