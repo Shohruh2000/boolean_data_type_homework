@@ -7,6 +7,6 @@ def main(a):
         bool
     """
     # Write your code here
-    return (a % 2 == 1 or a % 2 == 0) 
-nuber = main(7)
+    return (a % 2 == 1 or a % 2 == 0) and (a>0)
+nuber = main(8)
 print(bool(nuber))
