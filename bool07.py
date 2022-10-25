@@ -1,3 +1,6 @@
+import numbers
+
+
 def main(a,b):
     """
     Check the logic "They are not equal"
@@ -8,4 +11,6 @@ def main(a,b):
         bool
     """
     # Write your code here
-    return 
+    return a != b
+number = main(2,3)
+print(bool(numbers))
