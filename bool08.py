@@ -8,5 +8,5 @@ def main(a):
     """
     # Write your code here
     return type(a) == type(1) and a >= 0
-nuber = main(0)
+nuber = main(6)
 print(bool(nuber))
