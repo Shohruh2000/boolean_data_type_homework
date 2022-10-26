@@ -7,6 +7,6 @@ def main(a):
         bool
     """
     # Write your code here
-    return type(a) == type(1) and a >= 0
+    return a % 1 == 0 and a >= 0
 nuber = main(6)
 print(bool(nuber))
