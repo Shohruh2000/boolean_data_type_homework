@@ -8,5 +8,5 @@ def main(a):
     """
     # Write your code here
     return a % 1 == 0 and a >= 0
-nuber = main(6)
-print(bool(nuber))
+
+print(main(5))
